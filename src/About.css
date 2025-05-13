@@ -1,0 +1,40 @@
+.about{
+    padding: 0 7vw;
+}
+.about h1{
+    font-size: 2.5vw;
+}
+.box3{
+    width: 8.5vw;
+    height: 0.8vw;
+    background-color: rgb(21, 103, 150);
+    margin-left: 0.8vw;
+}
+
+.about p{
+    font-size: 1.9vw;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    margin-right: 3vw;
+}
+.about p span{
+    color: rgb(190, 4, 4) ;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+@media (max-width:600px) {
+    .about h1{
+
+        font-size: 4.5vw;
+        margin-top: 2vw;
+    }
+    .box3{
+        width:18.5vw ;
+    }
+    .about p{
+        font-size: 3.5vw;
+    }
+    .about p span{
+        font-size: 3.5vw;
+    }
+}

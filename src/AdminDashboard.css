@@ -1,0 +1,107 @@
+/* 
+.logoandlogout{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.logoandlogout .logout{
+    display: flex;
+    right: 8vw;
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    border-radius: 20px;
+    color: #050505;
+    cursor: pointer;
+    font-weight: bold;padding: 0.5vw 1.5vw;
+    margin-top: 3vw;
+}
+.admindashboard { 
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    background-color:rgb(30, 120, 148) ;
+    font-size: 1.8vw;
+    padding: 1.5vw 20vw 1.5vw 0;
+    margin-top: 45px;
+}
+.admindashboard h2:nth-child(1){
+   font-size: 2vw;
+   color: rgb(192, 189, 188);
+  
+}
+
+    
+.logoandlogout .logout:hover{
+    background-color: rgb(30, 120, 148);
+    color: #ffffff;
+}
+.reportspage{
+   display: flex;
+   flex-direction: row;
+   align-items: stretch; 
+   height: 100%;
+}
+.sidebar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    min-height: 100vh; 
+    height: 100%;
+    margin: 0.4vw 1vw;
+    
+}
+
+.sidebar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100vh; 
+}
+.side-wrapper{
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border-right: 2px solid #ccc;
+}
+
+.requestsdiv {
+    height: fit-content;
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.sidebar p{
+    border: none;
+    margin-bottom:1.5vh ;
+    padding: 1vw;
+    cursor: pointer;
+    font-size: 1.6vw;
+    padding-left: 3vw;
+    border-radius: 12px;
+    
+}
+.sidebar p:hover{
+    background-color: #e2e1e1;
+}
+.active {
+    background-color: #e2e1e1;
+    color: rgb(21, 103, 150);
+    padding: 5px;
+  }
+  
+  
+   */

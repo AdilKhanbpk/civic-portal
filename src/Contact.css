@@ -1,0 +1,73 @@
+.contact{
+    padding: 0 7vw;
+}
+.contact h1{
+    font-size: 2.5vw;
+}
+.box5{
+    width: 9.2vw;
+    height: 0.8vw;
+    background-color: rgb(21, 103, 150);
+    margin-left: 1vw;
+    margin-bottom: 3vw ;
+}
+.contact h3{
+    font-size: 2vw;
+    margin-left: 4vw;
+    margin-bottom: 1vw;
+}
+.ppp{
+    font-size: 1.9vw;
+    margin-left: 4vw;
+    margin-right: 3vw;
+}
+.conul{
+    font-size: 1.8vw;
+    margin-left: 5.5vw;
+    margin-right: 2.5vw;
+    line-height: 2.8vw;
+}
+
+.social{
+    color: rgb(30, 114, 240);
+    cursor: pointer;
+    display: inline-block;
+    line-height: 3vw;
+    font-size: 1.8vw;
+    margin-left: 3vw;
+    margin-right: 2.5vw;
+   
+}
+.social:hover{
+    color: rgb(7, 38, 83) ;
+}
+.contact ul{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:600px) {
+    .contact h1{
+        font-size: 4.5vw;
+        margin-top: 2vw;
+    }
+    .box5{
+        width: 22vw;
+    }
+    .ppp{
+        font-size: 3.5vw;
+    }
+    .conul{
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+    .contact h3{
+        font-size: 4vw;
+    }
+    .social{
+        font-size: 3.5vw;
+        margin-top: 2vw;
+        margin-left: 4.2vw;
+    }
+}

@@ -1,0 +1,90 @@
+.navone {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5vh;
+}
+
+.nav {
+  display: flex;
+  gap:5vw;
+  position: absolute;
+  right: 7vw;
+  margin-top: 5vh;
+}
+.nav.show {
+  transform: translateX(0); /* Slide in from the left */
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: rgb(53, 52, 52);
+  font-size: 21px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  position: relative;
+}
+
+.nav-button:active {
+  transform: none;
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
+.nav-button:hover {
+  color: rgb(34, 197, 247);
+}
+
+.actived {
+ color: rgb(34, 197, 247);
+  ;
+}
+
+.line2 {
+  margin-top: 60px;
+  padding: 5px 7vw;
+  margin-bottom: 0vh;
+
+}
+.navbar{
+  width: 8vw;
+  margin-left: 7vw;
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav{
+    display: none;
+  }
+  .navbar{
+    display: block;
+    cursor: pointer;
+    margin-top: -6vh;
+  }
+  .nav-button {
+   font-size: 3.5vw;  
+  }
+  .line2{
+    margin-top: 20px;
+  }
+
+}
+.nav.show {
+  display: flex;
+  flex-direction: column; /* Stacked menu items */
+  justify-content: flex-start;
+  background-color: #e0e0e0;
+  position: absolute;
+  left: 0;
+  gap: 3vh;
+  width:20vw ; /* Adjust as needed */
+  height: 30vh; /* Full height */
+  padding: 5vw 9vw;
+  z-index: 1000; /*Ensure it overlays othercontent*/
+  margin-top: 0.5vh;
+  transform: translateX(0); /* Slide in from the left */
+}
+

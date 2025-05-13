@@ -1,0 +1,55 @@
+
+
+  .Buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7vw;
+    gap: 1vw;
+    margin-top: -8vh;
+    /* width: max-content; */
+  }
+
+  .Resident{
+    font-size: 1.5vw ;
+    padding: 0.5vw 1.5vw;
+    color: white;
+    background-color: rgb(30, 130, 148);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .Administration{
+    font-size: 1.5vw ;
+    padding: 0.5vw 1.5vw;
+        color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  } 
+
+  .Resident:hover{
+    background-color:rgb(34, 197, 247) ;
+  } 
+  
+  .Administration:hover{
+     background-color: rgb(105, 105, 105);
+  }
+
+  @media (max-width:769px) {
+    .Buttons{
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1.3vh;
+        margin-top: -3vh;
+    }
+    .Resident{
+        font-size: 16px ;
+        padding: 1.1vw 2vw;
+    }
+    .Administration{
+        font-size: 16px ;
+        padding: 1.1vw 2vw;
+  }
+}

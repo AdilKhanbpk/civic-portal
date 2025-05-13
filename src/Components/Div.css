@@ -1,0 +1,81 @@
+  
+  .div{
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    /* padding-top: 5px; */
+  }
+
+.first{
+   margin-left: 7vw;
+   margin-top: -10px;
+  }
+  .first h3{
+    font-size: 2.7vw;
+    line-height: 3.7vw;
+  }
+  
+  .first p{
+    font-size:1.8vw;
+    margin-top: 2.5vw;
+    /* margin-left: 1vw; */
+  }
+  
+  .first button{
+    font-size: 1.5vw ;
+    padding: 1vw 2vw;
+    color: white;
+    background-color: rgb(30, 148, 142);
+    border: none;
+    cursor: pointer;
+    margin-top: 3.7vw;
+  }
+  
+  .first button:hover{
+    background-color:rgb(34, 197, 247) ;
+  } 
+
+
+  .Second img{
+    width: 100%;
+    
+  }
+  .Second , .first{
+    width: 43%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width:600px) {
+    .div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh 0vw;
+    }
+    .Second{
+      width: 100%
+    }
+
+    .first h3{
+        font-size: 5vw;
+        line-height: 32px;
+    }
+    .first{
+      margin-left: 7vw;
+      margin-right: 7vw;
+      width: fit-content;
+      
+    }
+    .first p{
+        font-size: 3vw;
+        margin-top: 3vh;
+    }
+    .first button{
+        font-size: 3.8vw;
+        padding: 1.8vw 3.5vw;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+    }
+  }

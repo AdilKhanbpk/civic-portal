@@ -1,0 +1,88 @@
+.serviceheading{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.card1{
+    background-color: #374647;
+    min-width: 300px;
+    width: 55%;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0;
+    margin-top: 4vh;
+}
+.card1 h1{
+    font-size: 31px;
+    color: rgb(243, 62, 62);
+}
+.card1 h2{
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    background-color: #374647;
+    margin-top: 7px;
+    min-width: 300px;
+    width: 55%;
+    border-radius: 0 0 20px 20px;
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+.card2-1{
+   margin-left: 2vw;
+   color: #ffffff;
+   display: flex;
+}
+
+.card2-1 p{
+    font-size: 21px;
+}
+.numberofrequests{
+    margin-right: 10px;
+}
+.card2-2{
+text-align: center;
+}
+
+.card2-2 span{
+    /* margin-left: 2vw; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin-top: 2vw; */
+    color: #2cbad3;
+    font-size: 21px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(18, 114, 18);
+    padding: 1px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+
+}
+.card2-2 span:hover{
+    background-color: rgb(12, 160, 12);
+}
+.card2-2 ul li:hover{
+    color: rgb(9, 45, 143);
+}
+.card2-2 ul li:nth-child(2) h3 , .card2-2 ul li:nth-child(1) h3{
+    color: #2cbad3;
+    text-decoration: none;
+}
+.card2-2 ul li:nth-child(2) h3:hover , .card2-2 ul li:nth-child(1) h3:hover{
+    color:rgb(9, 45, 143) ;
+    text-decoration: none;
+}

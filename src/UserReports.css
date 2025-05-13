@@ -1,0 +1,441 @@
+.userrequests{
+    width: 100%;
+    list-style-type: none;
+   
+}
+.userrequests ul{
+    list-style-type: none;
+    width: 100%;
+}
+.allreports{
+    width: 100%;
+    margin-left: -35px;
+}
+
+.userrequests-title{
+    font-size: 22px;
+    margin-left: 20px;
+}
+.allcontent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1vw;
+}
+.imag12 , .reqcontent{
+    width: 48%;
+}
+.reqcontent{
+    margin-left: 15px;
+}
+.imag12 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+
+}
+.userrequests li {
+    border: 1px solid #ccc;
+    margin: 10px 0; 
+    padding: 5px 10px; 
+    border-radius: 10px; 
+    background-color: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+.titleand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.titleand h3 {
+    flex: 1;
+    font-size: 22px;
+}
+
+.titleand p {
+    font-weight: bold;
+    color: rgb(23, 124, 155);
+    margin: 0;
+}
+
+.reqcontent h3 {
+    font-size: 22px;
+    color: rgb(23, 124, 155);
+    margin-bottom: 1.3vw;
+}
+
+.scheduleon {
+    margin-bottom: 10px;
+}
+
+.reqcontent {
+    padding-right: 20px;
+}
+
+
+@media (max-width:600px) {
+    .locationdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .reportsnumber p , .reportscompleted p{
+        font-size: 4vw;
+    }
+    .userlocation1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .location2 h3{
+        font-size: 4vw;
+    }
+    .profilename h1{
+        font-size: 4.5vw;
+    }
+    .allcontent{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+    .imag12 , .reqcontent{
+        width: 100%;
+    }
+    .titleand h3{
+        font-size: 5.5vw;
+    }
+    .titleand{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .titleand .openclose{
+        margin-bottom: 2vw;
+    }
+    .reqcontent strong{
+        font-size: 5vw;
+    }
+    .reqcontent p{
+        font-size: 4vw;
+    }
+}  
+
+
+
+
+
+
+
+
+
+/* 
+
+  
+  @media (max-width: 600px) {
+    .requests-list {
+      padding: 10px;
+      width: calc(100% - 20px);
+    }
+  
+    .request-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0; 
+    }
+  
+    .imag, .metadata {
+      width: 90%;
+    }
+  } */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.locationdiv {
+    margin: 30px 0;
+    display: flex;
+    background-color: rgb(38, 156, 192);
+    padding: 1vmax 9vmax;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.logoutbtn {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 125px;
+    margin-top: 40px;
+}
+
+.logoutbtn button img {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.logoutbtn button {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.logoutbtn:hover {
+    background-color: #ffffff;
+    color: rgb(38, 156, 192);
+}
+
+.logoutbtn { 
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.location2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+
+
+
+.profilemain {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 3vw 9vw;
+    margin-bottom: 40px;
+}
+
+.profileinfo {
+    box-sizing: border-box;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+.allreports {
+    box-sizing: border-box;
+    margin-top: 1.5vw;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(128, 126, 126);
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.noreq {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(23, 124, 155);
+}
+
+
+.allreports {
+    width: 100%;
+}
+
+.profilename {
+    max-width: 600px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    background-color: #e7e5e5;
+    border: 1px solid rgb(158, 158, 158);
+    overflow: hidden;
+    padding: 1.5vw 0;
+}
+
+.profilename img {
+    width: 6vw;
+    height: auto;
+}
+
+.profilename h1 {
+font-size: 3vw;}
+
+.reportsinfo{
+    margin-right: 3vmax;
+}
+
+.reportsinfo p:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.reportsinfo p {
+    font-size: 1.5vmax;
+    color: #fff;
+}
+
+.reportsnumber,
+.reportscompleted {
+    display: flex;
+    margin-bottom: 1vmax;
+    justify-content: center;
+    
+}
+
+
+.allcontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1vw;
+}
+
+.imag12 {
+    width: 50%; 
+    padding-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+.imag12 img {
+    width: 100%; 
+    height: auto; 
+}
+
+.reqcontent {
+    width: 50%; 
+    padding-left: 10px; 
+}
+
+.titleand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.titleand h3 {
+    flex: 1;
+}
+
+.titleand p {
+    font-weight: bold;
+    color: rgb(23, 124, 155);
+    margin: 0;
+}
+
+.reqcontent h3 {
+    font-size: 2.5vw;
+    color: rgb(23, 124, 155);
+    margin-bottom: 2.5vw;
+}
+
+.scheduleon {
+    margin-bottom: 10px;
+}
+
+.reqcontent {
+    padding-right: 20px;
+}
+
+
+@media (max-width:600px) {
+    .locationdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .reportsnumber p , .reportscompleted p{
+        font-size: 4vw;
+    }
+    .userlocation1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .location2 h3{
+        font-size: 4vw;
+    }
+    .profilename h1{
+        font-size: 4.5vw;
+    }
+    .allcontent{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+    .imag12 , .reqcontent{
+        width: 100%;
+    }
+    .titleand h3{
+        font-size: 5.5vw;
+    }
+    .titleand{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .titleand .openclose{
+        margin-bottom: 2vw;
+    }
+    .reqcontent strong{
+        font-size: 5vw;
+    }
+    .reqcontent p{
+        font-size: 4vw;
+    }
+}  */

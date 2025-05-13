@@ -1,0 +1,370 @@
+
+.Dashbuttons2 button.active {
+    background-color: rgb(68, 145, 68);
+    color: white;
+  }
+  .userdashboard{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw 3vw;
+    gap: 3%;
+}
+.Logoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #ffffff;
+}
+.dashboard1{
+    width:20%;
+    height: 95vh;
+    min-width: 270px;
+    background-color: rgb(18, 114, 18);
+    border-radius: 20px;
+    position: fixed;
+    top: 1vw; /* Fixed to the top */
+    left: 2vw; /* Fixed to the left */
+    z-index: 1000;
+
+}
+.Dashbuttons1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: -15px;
+}
+.Dashbuttons1 p{
+    color: #ffffff;    
+}
+.Dashbuttons1 h5{
+    color: #dbd7d7;
+    justify-content: center;
+    font-size: 28px;
+    margin: 20px;
+}
+.dashboard2{
+    width: 75%; 
+   margin-left: 295px; 
+}
+.Dashbuttons2 button{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    cursor: pointer;
+    margin: 5px 5px;
+    transition:300ms ease;
+    font-weight: 0;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    left: 1px;
+    padding-left: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+}
+.Dashbuttons2 button:hover{
+    background-color: rgb(68, 145, 68);
+}
+.Dashbuttons2{
+    margin-top: 20px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Dashbuttons2 button img{
+    width: 30px;
+    margin-right: 15px;
+}
+.dashboard2-1{
+    background-color: rgb(18, 114, 18);
+    padding: 11px 25px;
+    
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    border-radius: 20px;
+    color: #ffffff;
+    position: fixed;
+    top: 1vw;
+    right: 3vw;
+    left: 340px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.dashboard2-1 img{
+    width: 30px;
+    margin-right: 2vw;
+    cursor: pointer;
+}
+.dashboard2-1 h4{
+    font-size: 22px;
+    font-weight: 100;
+}
+.dahsboard2-2{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+
+.logout-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .logout-img {
+    cursor: pointer;
+  }
+  
+  .custom-tooltip {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px; /* Adjusted to show below the image */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-top: 10px;
+  }
+  
+  /* Show the tooltip when hovering over the logout container */
+  .logout-container:hover .custom-tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .active {
+    background-color: rgb(12, 160, 12);
+    padding: 5px;
+  }
+  
+  
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.logoandlogout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 7vw;
+} 
+
+
+.location2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.location2 button img {
+    width: 4vmax;
+    height: 4vmax;
+    min-width: 1vmax;
+    min-height: 1vmax;
+    background-color: transparent;
+}
+.location2 button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.location2 h3{
+    background-color: transparent;
+    border: none;
+    margin-left: 2vmax;
+    color:black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.5vmax;
+    padding: 1vmax 1.5vmax;
+}
+
+.location2 button:hover{
+    background-color:rgb(38, 156, 192) ;
+}
+.location2 h3:hover{
+    background-color:rgb(38, 156, 192) ;
+    color:#ffffff ;
+}
+
+.userlocation{
+    margin: 5vw 0 ;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 156, 192);
+    padding: 1vmax 9vw;
+    justify-content: space-between; 
+    align-items: center;
+}
+ 
+
+
+.neighbors button{
+    padding: 0.5vmax 0.6vmax;
+    font-size: 1.5vmax;
+    border: none;
+    border-radius: 0.5vmax;
+    cursor: pointer;
+}
+.neighbors button:hover{
+    background-color: #ffffff;
+    color: rgb(38, 156, 192);
+}
+
+.userlocation1 h1{
+    color: #ffffff;
+    margin-bottom: 2.5vw;
+    font-size: 4vw;
+}
+.location{
+    font-size: 2.5vw;
+    color: #a3e6fa;
+}
+.serviceprovider{
+    margin: 5vw 12vw;
+    font-size: 2.7vw;
+}
+.serviceprovider p{
+    font-size: 3vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card1{
+    background-color: #374647;
+    max-width: 550px;
+    width: 80%;
+    padding: 2vw 0;
+    border-radius: 20px 20px 0 0;
+}
+.card1 h1{
+    font-size: 3.5vw;
+    color: rgb(214, 6, 6);
+}
+.card1 h2{
+    color: #ffffff;
+    font-size: 1.8vw;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    background-color: #374647;
+    margin-top: 7px;
+    max-width: 550px;
+    width: 80%;
+    padding: 2vw 0;
+    border-radius: 0 0 20px 20px;
+    text-align: left;
+    margin-bottom: 4vw;
+}
+
+.card2-1{
+   margin-left: 2vw;
+   color: #ffffff;
+}
+
+.card2-1 p{
+    font-size: 1.8vw
+}
+.card2-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.card2-2 h3{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    color: #2cbad3;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+.card2-2 ul li:hover{
+    color: rgb(9, 45, 143);
+}
+.card2-2 ul li:nth-child(2) h3 , .card2-2 ul li:nth-child(1) h3{
+    color: #2cbad3;
+    text-decoration: none;
+}
+.card2-2 ul li:nth-child(2) h3:hover , .card2-2 ul li:nth-child(1) h3:hover{
+    color:rgb(9, 45, 143) ;
+    text-decoration: none;
+}
+
+
+@media (max-width:600px) {
+    .location2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2vw;
+        gap: 2vw;
+    }
+    .location2 button img {
+        width: 7vw;
+        height: auto;
+    }
+    .location2 h3{
+        font-size: 3vw;
+    }
+    .userlocation1 h1{
+        font-size: 7vw;
+    }
+    .userlocation1 h3{
+        font-size: 4.5vw;
+    }
+    .neighbors button{
+        font-size: 3.5vw;
+    }
+    .card1{
+        width: 80vw;
+    }
+    .card1 h1{
+        font-size: 6vw;
+    }
+    .card1 h2{
+        font-size: 3.8vw;
+    }
+    .serviceprovider{
+        font-size: 4.5vw;
+    }
+    .card2{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8vw;
+    }
+    .card2 p {
+        font-size: 3.5vw;
+    }
+    .card2-2 h3{
+        font-size: 4.5vw;
+    }
+    .userlocation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+    }
+} */

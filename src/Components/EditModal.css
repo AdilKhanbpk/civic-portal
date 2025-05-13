@@ -1,0 +1,135 @@
+/* Modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker backdrop */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 90%;
+}
+
+/* Image container */
+.imag2 {
+  width: 40%;
+  padding: 15px;
+}
+
+.imag2 img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Text content */
+.modal-content2 {
+  width: 60%;
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+.modal-content2 h2 {
+  color: #1e7894;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.modal-content2 p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+}
+
+.statusandname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.statusandname p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.select {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.schedule {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.schedule strong {
+  display: flex;
+  align-items: center;
+  background-color: #1e7894;
+  color: #ffffff;
+  padding: 0.1vmax 0.5vmax;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 80%;
+}
+
+.schedule strong input {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Save button */
+.savebutton button{
+  background-color: #bd4c4c;
+  color: #ffffff;
+  font-size: 5vmax;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.savebutton button:hover {
+  background-color: #a30000;
+}
+
+/* Edit button */
+.editbutton {
+  background-color: #1e7894;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 15px;
+}
+
+.editbutton{
+  background-color: #16647d;
+}
