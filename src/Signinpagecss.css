@@ -1,7 +1,7 @@
 .signin-container {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   /* margin-top: 5vw;  */
@@ -44,10 +44,11 @@
 
 .form-group input {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.6rem;
   border: 1px solid #8f8d8d;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 .form-group input:focus {
@@ -55,19 +56,20 @@
   outline: none;
 }
 
-/* .submit-button {
-  background-color: #007bff;
+.submit-button {
+  background-color: rgb(30, 120, 148);
   color: #fff;
   border: none;
-  padding: 0.75rem;
+  padding: 0.6rem;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
-} */
+  font-size: 14px;
+}
 
-/* .submit-button:hover {
-  background-color: #0056b3;
-} */
+.submit-button:hover {
+  background-color: rgb(34, 197, 247);
+}
 
 .signup-link {
   margin-top: 2rem;
@@ -90,7 +92,7 @@
     width: 75vw;
     margin-top: 20vw;
   }
- 
 
-  
+
+
 }

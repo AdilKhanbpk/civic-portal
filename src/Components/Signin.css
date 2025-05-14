@@ -1,55 +1,112 @@
 
 
-  .Buttons{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 7vw;
-    gap: 1vw;
-    margin-top: -8vh;
-    /* width: max-content; */
+.Buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7vw;
+  gap: 1rem;
+  margin-top: -2.5rem;
+  z-index: 10;
+  position: relative;
+}
+
+.Resident,
+.Administration {
+  font-size: 14px;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: var(--transition);
+  box-shadow: var(--box-shadow-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3px;
+}
+
+.Resident {
+  background-color: var(--primary-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.Resident::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: var(--transition-slow);
+}
+
+.Resident:hover::before {
+  left: 100%;
+}
+
+.Administration {
+  background-color: var(--bg-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.Administration::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: var(--transition-slow);
+}
+
+.Administration:hover::before {
+  left: 100%;
+}
+
+.Resident:hover,
+.Administration:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .Buttons {
+    margin-top: -3.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .Buttons {
+    flex-direction: row;
+    margin-top: -3rem;
+    gap: 0.5rem;
   }
 
-  .Resident{
-    font-size: 1.5vw ;
-    padding: 0.5vw 1.5vw;
-    color: white;
-    background-color: rgb(30, 130, 148);
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
+  .Resident,
+  .Administration {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .Buttons {
+    margin-top: -2.5rem;
+    margin-right: 5vw;
   }
 
-  .Administration{
-    font-size: 1.5vw ;
-    padding: 0.5vw 1.5vw;
-        color: white;
-    background-color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
-  } 
-
-  .Resident:hover{
-    background-color:rgb(34, 197, 247) ;
-  } 
-  
-  .Administration:hover{
-     background-color: rgb(105, 105, 105);
-  }
-
-  @media (max-width:769px) {
-    .Buttons{
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 1.3vh;
-        margin-top: -3vh;
-    }
-    .Resident{
-        font-size: 16px ;
-        padding: 1.1vw 2vw;
-    }
-    .Administration{
-        font-size: 16px ;
-        padding: 1.1vw 2vw;
+  .Resident,
+  .Administration {
+    font-size: 13px;
+    padding: 5px 12px;
   }
 }

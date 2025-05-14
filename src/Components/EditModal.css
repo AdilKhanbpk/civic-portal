@@ -101,10 +101,10 @@
 }
 
 /* Save button */
-.savebutton button{
+.savebutton {
   background-color: #bd4c4c;
   color: #ffffff;
-  font-size: 5vmax;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 8px;
   padding: 10px 20px;
@@ -113,7 +113,7 @@
   transition: background-color 0.3s ease;
 }
 
-.savebutton button:hover {
+.savebutton:hover {
   background-color: #a30000;
 }
 
@@ -130,6 +130,63 @@
   margin-left: 15px;
 }
 
-.editbutton{
+.editbutton:hover {
   background-color: #16647d;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .modal-content {
+    width: 95%;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+  }
+
+  .imag2, .modal-content2 {
+    width: 100%;
+  }
+
+  .schedule {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .schedule strong {
+    width: 100%;
+  }
+
+  .statusandname {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content2 h2 {
+    font-size: 20px;
+  }
+
+  .modal-content2 p {
+    font-size: 14px;
+  }
+
+  .schedule strong {
+    font-size: 14px;
+    padding: 0.2vmax 0.5vmax;
+  }
+
+  .schedule strong input {
+    font-size: 14px;
+  }
+
+  .savebutton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
